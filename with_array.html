@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="nav">
+        <div id="nav-home" class="nav-link">
+            <h1>
+                <a href="./index.html">Home</a>
+            </h1>
+        </div>
+        <div class="nav-link">
+            <h2>
+                <a href="./with_array.html">Function with array</a>
+            </h2>
+        </div>
+        <div class="nav-link">
+            <h2>
+                <a href="./without_array.html">Function without array</a>
+            </h2>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="content">
+            <h3 id="instructions">Input integers, input -1 to see the largest, smallest, and total number of integers.</h3>
+            <form id="input">
+                <div id="integer-input">
+                    <label for="integer">Input integer:</label>
+                    <input id="integer" type="number" />
+                </div>
+                <button type="submit" id="submit">Submit</button>
+                <button id="reset">Reset</button>
+            </form>
+            <div id="results">
+                <div id="largest"></div>
+                <div id="smallest"></div>
+                <div id="count"></div>
+                <div id="error"></div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <span id="copyright">Copyright Eric Stanulis 2022</span>
+    </footer>
+    <script src="with_array.js"></script>
+</body>
+</html>
